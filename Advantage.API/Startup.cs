@@ -23,10 +23,12 @@ namespace Advantage.API
             _connectionString = Configuration["connectionString"]; //coming from user secrets, connectionString is stored as secret
             services.AddControllers();
             services.AddEntityFrameworkNpgsql().AddDbContext<APIContext>(opt => opt.UseNpgsql(_connectionString));
+
+            services.AddTransient<DataSeed>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataSeed seed)
         {
             if (env.IsDevelopment())
             {
@@ -43,6 +45,9 @@ namespace Advantage.API
             {
                 endpoints.MapControllers();
             });
+            
+            seed.SeedData(20, 500); //20 customers and 500 orders
+
         }
     }
 }

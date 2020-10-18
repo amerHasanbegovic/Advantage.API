@@ -28,12 +28,6 @@ C:\Users\amkoo\source\repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\
 C:\Users\amkoo\source\repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CopyComplete
 C:\Users\amkoo\source\repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\amkoo\source\repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csprojAssemblyReference.cache
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfoInputs.cache
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfo.cs
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CoreCompileInputs.cache
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.MvcApplicationPartsAssemblyInfo.cache
-D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\UserSecretsAssemblyInfo.cs
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -67,6 +61,12 @@ D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\Npgsql.dll
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\Repos\Advantage.API\Advantage.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csprojAssemblyReference.cache
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfoInputs.cache
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.AssemblyInfo.cs
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CoreCompileInputs.cache
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\UserSecretsAssemblyInfo.cs
 D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.RazorTargetAssemblyInfo.cache
 D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\Advantage.API.csproj.CopyComplete
 D:\Repos\Advantage.API\Advantage.API\obj\Debug\netcoreapp3.1\staticwebassets\Advantage.API.StaticWebAssets.Manifest.cache
