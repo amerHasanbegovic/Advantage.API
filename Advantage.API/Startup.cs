@@ -37,16 +37,17 @@ namespace Advantage.API
 
             app.UseHttpsRedirection();
 
+            seed.SeedData(20, 500); //20 customers and 500 orders
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "api/{controller}/{action}/{id?}");
             });
-            
-            seed.SeedData(20, 500); //20 customers and 500 orders
 
         }
     }
