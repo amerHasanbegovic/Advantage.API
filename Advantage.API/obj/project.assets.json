@@ -4901,11 +4901,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amkoo\\source\\repos\\Advantage.API\\Advantage.API\\Advantage.API.csproj",
+      "projectUniqueName": "D:\\Repos\\Advantage.API\\Advantage.API\\Advantage.API.csproj",
       "projectName": "Advantage.API",
-      "projectPath": "C:\\Users\\amkoo\\source\\repos\\Advantage.API\\Advantage.API\\Advantage.API.csproj",
+      "projectPath": "D:\\Repos\\Advantage.API\\Advantage.API\\Advantage.API.csproj",
       "packagesPath": "C:\\Users\\amkoo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amkoo\\source\\repos\\Advantage.API\\Advantage.API\\obj\\",
+      "outputPath": "D:\\Repos\\Advantage.API\\Advantage.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
