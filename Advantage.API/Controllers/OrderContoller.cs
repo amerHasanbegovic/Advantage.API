@@ -7,11 +7,11 @@ using System.Linq;
 namespace Advantage.API.Controllers
 {
     [Route("api/[controller]")]
-    public class OrderContoller : Controller
+    public class OrderController : Controller
     {
         private readonly APIContext _apiContext;
 
-        public OrderContoller(APIContext apiContext)
+        public OrderController(APIContext apiContext)
         {
             _apiContext = apiContext;
         }
@@ -62,7 +62,7 @@ namespace Advantage.API.Controllers
             return Ok(grouped);
         }
 
-        [HttpGet("GetOrder/{}", Name ="GetOrder")]
+        [HttpGet("GetOrder/{id}", Name ="GetOrder")]
         public IActionResult GetOrder(int id)
         {
             var order = _apiContext.Orders.Include(o => o.Customer).First(o => o.Id == id);
