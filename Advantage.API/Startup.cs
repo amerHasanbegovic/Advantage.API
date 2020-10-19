@@ -20,10 +20,14 @@ namespace Advantage.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //cors policy, cross origin resource sharing
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", c => c.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+            });
             _connectionString = Configuration["connectionString"]; //coming from user secrets, connectionString is stored as secret
             services.AddControllers();
             services.AddEntityFrameworkNpgsql().AddDbContext<APIContext>(opt => opt.UseNpgsql(_connectionString));
-
             services.AddTransient<DataSeed>();
         }
 
@@ -33,6 +37,7 @@ namespace Advantage.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCors("CorsPolicy");
             }
 
             app.UseHttpsRedirection();
